@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CodeAlpha Azure CI/CD Task Manager</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app-container">
+    <section class="hero-section">
+      <p class="badge">Azure DevOps Project</p>
+      <h1>Task Manager</h1>
+      <p class="subtitle">
+        A containerized web app deployed using Azure Pipelines, Azure Container Registry, and Azure App Service.
+      </p>
+    </section>
+
+    <section class="task-card">
+      <form id="taskForm" class="task-form">
+        <input
+          type="text"
+          id="taskInput"
+          placeholder="Enter a new task..."
+          autocomplete="off"
+        />
+        <button type="submit">Add Task</button>
+      </form>
+
+      <div id="statusMessage" class="status-message"></div>
+
+      <ul id="taskList" class="task-list"></ul>
+    </section>
+
+    <section class="info-card">
+      <h2>DevOps Project Flow</h2>
+      <p>
+        Code changes are pushed to GitHub, built with Azure Pipelines,
+        stored as a Docker image in Azure Container Registry, and deployed
+        automatically to Azure App Service.
+      </p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
