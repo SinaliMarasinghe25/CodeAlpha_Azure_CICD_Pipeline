@@ -204,8 +204,3 @@ This project successfully demonstrates a complete Azure DevOps CI/CD workflow wi
 **Sinali Lawanya**
 GitHub: [SinaliMarasinghe25](https://github.com/SinaliMarasinghe25)
 
----
-
-## 🏷️ Tags
-
-`Azure DevOps` `CI/CD` `Docker` `Node.js` `Express.js` `Azure App Service` `Azure Container Registry` `Trivy` `DevOps Project` `Cloud Deployment`
